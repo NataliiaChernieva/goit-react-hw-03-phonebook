@@ -9,6 +9,7 @@ export default class Form extends Component {
     state = {
         name: '',
         number: '',
+        id: '',
     };
 
     handleSetInfo =(e) => {
@@ -26,7 +27,7 @@ export default class Form extends Component {
     };
 
     reset = () => {
-        this.setState({ name: '', number:'',})
+        this.setState({ name: '', number:'', id: '',})
     }
 
 
